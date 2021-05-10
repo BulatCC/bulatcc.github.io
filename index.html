@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Булат Карамышев Front-end разработчик</title>
+  <meta name="description" content="Описание страницы.">
+  <link rel="preload" href="fonts/exo-2-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/exo-2-500.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/exo-2-600.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/exo-2-700.woff2" as="font" crossorigin="anonymous">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper wrapper--mobile-no-paddding">
+      <nav class="nav">
+        <button class="button button--icon nav__button" type="button">
+          <svg width="24" height="24" aria-hidden="true">
+            <use xlink:href="img/sprite_auto.svg#ic-menu"></use>
+          </svg>
+        </button>
+        <ul class="nav-list">
+          <button class="button button--icon nav-list__button" type="button">
+            <svg width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/sprite_auto.svg#ic-close"></use>
+            </svg>
+          </button>
+          <li class="nav-list__item"> <a class="link link--white" href="#about-me">Обо мне</a>
+          </li>
+          <li class="nav-list__item"> <a class="link link--white" href="#skills">Навыки</a>
+          </li>
+          <li class="nav-list__item"> <a class="link link--white" href="#portfolio">Примеры работ</a>
+          </li>
+          <li class="nav-list__item"> <a class="link link--white" href="#experience">Опыт работы</a>
+          </li>
+          <li class="nav-list__item"> <a class="link link--white" href="#education">Образование</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="page-section">
+      <div class="anchor" id="about-me"></div>
+      <div class="wrapper">
+        <h2 class="title"> Обо мне</h2>
+        <div class="grid">
+          <div class="grid__column-6">
+            <p class="paragraph">Frontend разработчик из города Уфа. Окончил курсы в <a href="https://htmlacademy.ru/profile/id1030743" target="_blank" class="link">HTML Academy</a>. В данный момент прохожу стажировку в компании <a href="https://ligaa.agency/" target="_blank"
+              class="link">Лига А</a> на позиции junior frontend developer.</p>
+            <p class="paragraph">Ищу работу с возможностью дальнейшего развития в сфере фронтенда. Цель дорасти до позиции сениор и осваивать новую область в програмировании, бэкэнд или мобильная разработка, в зависимости от того, что будет нужно компании. Имею огромное желание
+              развиваться во фронтенде. Готов оперативно осваивать новые технологии.</p>
+            <h3 class="title title--sm">Контакты</h3>
+            <table class="table-content table-content--2-col mb">
+              <tr>
+                <td>Телефон</td>
+                <td class="js-text-copy d-flex"><a class="link" href="tel: +79603818888"><span class="js-copy-frame">+7(960)381-8888</span></a>
+                  <button class="copy-button" type="button" title="Копировать">
+                    <svg width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite_auto.svg#ic-copy"></use>
+                    </svg>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>E-mail</td>
+                <td class="js-text-copy d-flex"> <span class="js-copy-frame">bulatsrc@gmail.com</span>
+                  <button class="copy-button" type="button" title="Копировать">
+                    <svg width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite_auto.svg#ic-copy"></use>
+                    </svg>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Telegram</td>
+                <td class="js-text-copy d-flex"><a class="link" href="https://telegram.me/BulatSRC" target="_blank"><span class="js-copy-frame">@BulatSRC</span></a>
+                  <button class="copy-button" type="button" title="Копировать">
+                    <svg width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite_auto.svg#ic-copy"></use>
+                    </svg>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Github</td>
+                <td> <a class="link" href="https://github.com/BulatCC" target="_blank">https://github.com/BulatCC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>HTML Academy</td>
+                <td> <a class="link" href="https://htmlacademy.ru/profile/id1030743" target="_blank">https://htmlacademy.ru/profile/id1030743</a>
+                </td>
+              </tr>
+              <tr>
+                <td>HH.ru</td>
+                <td> <a class="link" href="https://ufa.hh.ru/resume/be872102ff08e5c9a90039ed1f7135664e566d" target="_blank">https://hh.ru/</a>
+                </td>
+              </tr>
+            </table><a class="button" href="Bulat_Karamyshev.pdf" download>Сохранить резюме      </a>
+          </div>
+          <div class="grid__column-6 photo">
+            <picture>
+              <source type="image/webp" srcset="img/my-photo.webp" />
+              <img src="img/my-photo.png" width="700" height="450" alt="моё фото" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="anchor" id="skills"></div>
+      <div class="wrapper">
+        <h2 class="title title--lg">Навыки</h2>
+        <div class="grid">
+          <div class="grid__column-4">
+            <h3 class="title title--sm">Основные навыки</h3>
+            <ul class="list">
+              <li class="list__item">HTML (Pug)</li>
+              <li class="list__item">CSS (SCSS, LESS, БЭМ)</li>
+              <li class="list__item">JS (ES5, ES6)</li>
+              <li class="list__item">Понимание паттернов ООП, MVP, Adapter, Observer.</li>
+              <li class="list__item">Gulp</li>
+              <li class="list__item">Git (Github, Gitlab)</li>
+              <li class="list__item">Figma, Zeplin, Photoshop</li>
+              <li class="list__item">Npm</li>
+            </ul>
+          </div>
+          <div class="grid__column-4">
+            <h3 class="title title--sm">Помимо основных навыков </h3>
+            <ul class="list">
+              <li class="list__item">Понимание того как работает бэкэнд, могу решить простые задачи на PHP/MySQL.</li>
+              <li class="list__item">jQuery опыта нет, пощупал, освою быстро при необходимости.</li>
+              <li class="list__item">Могу Bootstrap.</li>
+              <li class="list__item">Английский язык (Intermediate b1)</li>
+            </ul>
+          </div>
+          <div class="grid__column-4">
+            <h3 class="title title--sm">Ближайшие планы по изучению</h3>
+            <ul class="list">
+              <li class="list__item">React</li>
+              <li class="list__item">Vue.js</li>
+              <li class="list__item">Node.js</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="anchor" id="portfolio"></div>
+      <div class="wrapper">
+        <h2 class="title title--lg">Примеры работ</h2>
+        <ul class="button-list mb"></ul>
+      </div>
+      <div class="wrapper wrapper--mobile-no-paddding">
+        <ul class="grid grid--mobile-mr-top-0 js-project-card-list"></ul>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="anchor" id="experience"></div>
+      <div class="wrapper">
+        <h2 class="title title--lg">Опыт работы</h2>
+        <div class="grid">
+          <div class="grid__column-6">
+            <h3 class="title title--sm">Лига А. </h3><a class="link d-inline-block mb-sm" href="https://ligaa.agency/" target="_blank">https://ligaa.agency/</a>
+            <p class="paragraph">Сентябрь 2020 — по настоящее время.</p>
+            <h4 class="title title--xs">С чем работал:</h4>
+            <ul class="list">
+              <li class="list__item">Верстка HTML/Pug, SCSS, БЭМ, адаптивная верстка, pixel perfect.</li>
+              <li class="list__item">JS: ES5, ES6.</li>
+              <li class="list__item">Гит: Git, Github, Gitlab.</li>
+              <li class="list__item">Figma.</li>
+            </ul>
+            <p class="paragraph">В основные обязанности входит верстка по макетам, оживление верстки на JS. Модальные окна, слайдеры, валидация форм, калькуляторы, аккордеоны, кастомизация селектов, табы и т.п. Взаимодействие с менеджером проектов, тестировщиками.</p>
+          </div>
+          <div class="grid__column-6">
+            <h3 class="title title--sm">Не релевантный опыт</h3>
+            <h4 class="title title--xs">С 2006 - 2019 работал:</h4>
+            <p class="paragraph">С 2006 - 2007. ФГУ Земельная кадастровая палата. Инженер отдела контроля и обработки информации.</p>
+            <p class="paragraph">С 2008 - 2011. Сеть магазинов одежды. Системный администратор.</p>
+            <p class="paragraph">С 2008 - 2012. ИП, платежные терминалы. (совмещал с основной работой)</p>
+            <p class="paragraph">С 2013 - 2019. ИП, розничная торговля.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="anchor" id="education"></div>
+      <div class="wrapper">
+        <h2 class="title title--lg">Образование</h2>
+        <h3 class="title title--sm">HTML Academy (2019 - 2021)</h3><a class="link d-inline-block mb" href="https://htmlacademy.ru/" target="_blank">https://htmlacademy.ru/</a>
+        <ul class="accordion mb">
+          <li class="accordion__item">
+            <h4 class="title title--xs" data-id="title"> <span>JavaScript. Архитектура клиентских приложений (2021)</span><button class="link" type="button"><svg width="24" height="24" aria-hidden="true"><use xlink:href="img/sprite_auto.svg#ic-arrow"></use></svg></button></h4>
+            <div class="accordion__wrapper">
+              <div class="accordion__content">
+                <p class="paragraph">Полученные навыки: JS(ES-6), ООП. Паттерны: MVP, Observer, Adapter.</p><a class="link mb-sm" href="https://htmlacademy.ru/intensive/ecmascript" target="_blank">Описание курса</a><a class="link" href="https://assets.htmlacademy.ru/certificates/intensive/175/1030743.pdf?1612454601&amp;_ga=2.76836306.63273549.1620281236-1910608129.1620281236"
+                target="_blank">Cертификат об окончании</a>
+              </div>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h4 class="title title--xs" data-id="title"> <span>PHP. Профессиональная веб-разработка (2020)</span><button class="link" type="button"><svg width="24" height="24" aria-hidden="true"><use xlink:href="img/sprite_auto.svg#ic-arrow"></use></svg></button></h4>
+            <div class="accordion__wrapper">
+              <div class="accordion__content">
+                <p class="paragraph">Полученные навыки: PHP, MySQL, Composer.</p><a class="link mb-sm" href="https://htmlacademy.ru/intensive/php" target="_blank">Описание курса</a><a class="link" href="https://assets.htmlacademy.ru/certificates/intensive/189/1030743.pdf?1604324939&amp;_ga=2.144352754.63273549.1620281236-1910608129.1620281236"
+                target="_blank">Cертификат об окончании</a>
+              </div>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h4 class="title title--xs" data-id="title"> <span>Профессиональная разработка веб-интерфейсов (2019)</span><button class="link" type="button"><svg width="24" height="24" aria-hidden="true"><use xlink:href="img/sprite_auto.svg#ic-arrow"></use></svg></button></h4>
+            <div class="accordion__wrapper">
+              <div class="accordion__content">
+                <p class="paragraph">Полученные навыки: JS(ES-5).</p><a class="link mb-sm" href="https://htmlacademy.ru/intensive/javascript" target="_blank">Описание курса</a><a class="link" href="https://assets.htmlacademy.ru/certificates/intensive/121/1030743.pdf?1573302755&amp;_ga=2.72630612.63273549.1620281236-1910608129.1620281236"
+                target="_blank">Cертификат об окончании </a>
+              </div>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h4 class="title title--xs" data-id="title"> <span>HTML и CSS. Адаптивная вёрстка и автоматизация (2019)</span><button class="link" type="button"><svg width="24" height="24" aria-hidden="true"><use xlink:href="img/sprite_auto.svg#ic-arrow"></use></svg></button></h4>
+            <div class="accordion__wrapper">
+              <div class="accordion__content">
+                <p class="paragraph">Полученные навыки: HTML, SCSS, БЭМ, Gulp, Git(консоль), NPM.</p><a class="link mb-sm" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">Описание курса</a><a class="link" href="https://assets.htmlacademy.ru/certificates/intensive/115/1030743.pdf?1567238758&amp;_ga=2.72649428.63273549.1620281236-1910608129.1620281236"
+                target="_blank">Cертификат об окончании </a>
+              </div>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h4 class="title title--xs" data-id="title"> <span>HTML и CSS. Профессиональная вёрстка сайтов (2019).</span><button class="link" type="button"><svg width="24" height="24" aria-hidden="true"><use xlink:href="img/sprite_auto.svg#ic-arrow"></use></svg></button></h4>
+            <div class="accordion__wrapper">
+              <div class="accordion__content">
+                <p class="paragraph">Полученные навыки: HTML, CSS, Git(UI).</p><a class="link mb-sm" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">Описание курса</a><a class="link" href="https://assets.htmlacademy.ru/certificates/intensive/109/1030743.pdf?1562568966&amp;_ga=2.180002915.63273549.1620281236-1910608129.1620281236"
+                target="_blank">Cертификат об окончании             </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <h3 class="title title--sm">Финансовый университет при правительстве рф (2009-2014)</h3>
+        <h4 class="title title--xs">Производственный менеджмент</h4>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-gray">
+    <div class="wrapper d-flex">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="link" href="https://vk.com/bulatsrc" target="_blank">
+            <svg width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/sprite_auto.svg#ic-vk"></use>
+            </svg><span class="visually-hidden">Вконтакте</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="link" href="https://ufa.hh.ru/resume/be872102ff08e5c9a90039ed1f7135664e566d" target="_blank">
+            <svg width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/sprite_auto.svg#ic-hh"></use>
+            </svg><span class="visually-hidden">Headhunter</span>
+          </a>
+        </li>
+        <li class="social-list__item social-list__item--icon-scale">
+          <a class="link" href="https://htmlacademy.ru/profile/id1030743" target="_blank">
+            <svg width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/sprite_auto.svg#ic-htmlacademy"></use>
+            </svg><span class="visually-hidden">Htmlacademy</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="link" href="https://telegram.me/BulatSRC" target="_blank">
+            <svg width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/sprite_auto.svg#ic-telegram"></use>
+            </svg><span class="visually-hidden">Telegram</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="link" href="https://github.com/BulatCC" target="_blank">
+            <svg width="24" height="24" aria-hidden="true">
+              <use xlink:href="img/sprite_auto.svg#ic-github"></use>
+            </svg><span class="visually-hidden">Github</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <div class="overlay"></div>
+  <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
