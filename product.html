@@ -1,0 +1,221 @@
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Product</title>
+    <link rel="preload" href="fonts/Worksans.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="fonts/Worksansextrabold.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="fonts/Worksansbold.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="fonts/Worksansmedium.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.min.css"/>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header_container"><span class="header_title">Nîmes</span>
+                  <div class="user-block">
+                    <ul class="user-block_list">
+                      <li class="user-block_list-item">
+                        <div class="search-block">
+                          <input class="search-block_input" type="search"/>
+                          <button class="search-block_button" type="button"><img class="search-block_img" src="img/svg/search.svg" alt="поиск" width="24" height="24"/></button>
+                        </div>
+                      </li>
+                      <li class="user-block_list-item"><a class="user-block_item" href="#"><img class="user-block_img" src="img/svg/person.svg" alt="корзина" width="24" height="24"/></a></li>
+                      <li class="user-block_list-item"><a class="user-block_item" href="#"><span class="user-block_cart-count">0</span><img class="user-block_img" src="img/svg/cart.svg" alt="корзина" width="24" height="24"/></a></li>
+                    </ul>
+                  </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="product-details content mt-2-mobile mt-4-tablet mt-6-descktop">
+          <div class="product-details_container">
+            <div class="product-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-1.webp, img/webp/slider-1@2x.webp 2x"/><img class="product-slider_img" src="img/slider-1.jpg" srcset="img/slider-1@2x.jpg 2x" alt="комбез" width="244" height="310"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-2.webp, img/webp/slider-2@2x.webp 2x"/><img class="product-slider_img" src="img/slider-2.jpg" srcset="img/slider-2@2x.jpg 2x" alt="комбез" width="244" height="310"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-3.webp, img/webp/slider-3@2x.webp 2x"/><img class="product-slider_img" src="img/slider-3.jpg" srcset="img/slider-3@2x.jpg 2x" alt="комбез" width="244" height="310"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-4.webp, img/webp/slider-4@2x.webp 2x"/><img class="product-slider_img" src="img/slider-4.jpg" srcset="img/slider-4@2x.jpg 2x" alt="комбез" width="244" height="310"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-5.webp, img/webp/slider-5@2x.webp 2x"/><img class="product-slider_img" src="img/slider-5.jpg" srcset="img/slider-5@2x.jpg 2x" alt="комбез" width="244" height="310"/>
+                  </picture>
+                </div>
+              </div>
+              <button class="product-slider_button product-slider_button--prev" type="button"><img class="product-slider_icon" src="img/svg/arrow-slider.svg" width="8" height="16"/></button>
+              <button class="product-slider_button product-slider_button--next" type="button"><img class="product-slider_icon" src="img/svg/arrow-slider.svg" width="8" height="16"/></button>
+            </div>
+            <div class="product-slider_pagination">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-1.webp, img/webp/slider-1@2x.webp 2x"/><img class="product-slider_pagination-img" src="img/slider-1.jpg" srcset="img/slider-1@2x.jpg 2x" alt="комбез" width="100" height="200"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-2.webp, img/webp/slider-2@2x.webp 2x"/><img class="product-slider_pagination-img" src="img/slider-2.jpg" srcset="img/slider-2@2x.jpg 2x" alt="комбез" width="100" height="200"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-3.webp, img/webp/slider-3@2x.webp 2x"/><img class="product-slider_pagination-img" src="img/slider-3.jpg" srcset="img/slider-3@2x.jpg 2x" alt="комбез" width="100" height="200"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-4.webp, img/webp/slider-4@2x.webp 2x"/><img class="product-slider_pagination-img" src="img/slider-4.jpg" srcset="img/slider-4@2x.jpg 2x" alt="комбез" width="100" height="200"/>
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="img/webp/slider-5.webp, img/webp/slider-5@2x.webp 2x"/><img class="product-slider_pagination-img" src="img/slider-5.jpg" srcset="img/slider-5@2x.jpg 2x" alt="комбез" width="100" height="200"/>
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-details_description">
+            <div class="product-details_container">
+              <ul class="product-details_list">
+                <li class="product-details_item">
+                  <h2 class="title product-details_title">Overalls</h2>
+                  <p class="product-details_text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front and back pockets.</p>
+                </li>
+                <li class="product-details_item">
+                  <h3 class="product-details_sub-title">Color</h3>
+                  <ul class="filter-radio product-details_radio">
+                    <li class="filter-radio_item">
+                      <input class="filter-radio_button" type="radio" name="color-button" id="#B0C3C7" value="#B0C3C7" checked="checked"/>
+                      <label for="#B0C3C7" style="--radio-color: #B0C3C7"></label>
+                    </li>
+                    <li class="filter-radio_item">
+                      <input class="filter-radio_button" type="radio" name="color-button" id="#3B6392" value="#3B6392"/>
+                      <label for="#3B6392" style="--radio-color: #3B6392"></label>
+                    </li>
+                    <li class="filter-radio_item">
+                      <input class="filter-radio_button" type="radio" name="color-button" id="#2D2E2E" value="#2D2E2E"/>
+                      <label for="#2D2E2E" style="--radio-color: #2D2E2E"></label>
+                    </li>
+                    <li class="filter-radio_item">
+                      <input class="filter-radio_button" type="radio" name="color-button" id="#ECECEC" value="#ECECEC"/>
+                      <label for="#ECECEC" style="--radio-color: #ECECEC"></label>
+                    </li>
+                    <li class="filter-radio_item">
+                      <input class="filter-radio_button" type="radio" name="color-button" id="#4193DA" value="#4193DA"/>
+                      <label for="#4193DA" style="--radio-color: #4193DA"></label>
+                    </li>
+                  </ul>
+                </li>
+                <li class="product-details_item">
+                  <h3 class="product-details_sub-title">Size</h3>
+                  <ul class="sort-buttons">
+                    <li class="sort-buttons_item">
+                      <button class="sort-buttons_button" type="button">XS</button>
+                    </li>
+                    <li class="sort-buttons_item">
+                      <button class="sort-buttons_button active" type="button">S</button>
+                    </li>
+                    <li class="sort-buttons_item">
+                      <button class="sort-buttons_button" type="button">M</button>
+                    </li>
+                    <li class="sort-buttons_item">
+                      <button class="sort-buttons_button" type="button">L</button>
+                    </li>
+                    <li class="sort-buttons_item">
+                      <button class="sort-buttons_button" type="button">XL</button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <p class="product-details_price">$ 160</p>
+              <button class="button product-details_button" type="button">Add to cart</button>
+            </div>
+          </div>
+        </section>
+        <section class="content">
+          <div class="container">
+            <div class="title-container">
+              <h2 class="title">You may also like</h2><a class="link hidden-mobile" href="#">View all</a>
+            </div>
+            <ul class="product-list">
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/webp/woman-overall-1.webp, img/webp/woman-overall-1@2x.webp 2x"/><img class="product-card_img" src="img/woman-overall-1.jpg" srcset="img/woman-overall-1@2x.jpg 2x" alt="Overall"/>
+                      </picture>
+                    </div>
+                    <h3 class="product-card_title">Overall</h3><br/><span class="product-card_price">$ 120</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/webp/category-overall.webp, img/webp/category-overall@2x.webp 2x"/><img class="product-card_img" src="img/category-overall.jpg" srcset="img/category-overall@2x.jpg 2x" alt="Overall"/>
+                      </picture>
+                    </div>
+                    <h3 class="product-card_title">Overall</h3><br/><span class="product-card_price">$ 110</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/webp/woman-jacket-8.webp, img/webp/woman-jacket-8@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-8.jpg" srcset="img/woman-jacket-8@2x.jpg 2x" alt="Jacket"/>
+                      </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 70</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/webp/woman-jacket-1.webp, img/webp/woman-jacket-1@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-1.jpg" srcset="img/woman-jacket-1@2x.jpg 2x" alt="Jacket"/>
+                      </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 60</span></a></article>
+              </li>
+            </ul>
+            <div class="hidden-tablet link-container"><a class="link" href="#">View all</a></div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_container">
+            <h2 class="footer_title">Nîmes</h2>
+            <nav class="footer_links"><a class="footer_link" href="#">Shop</a><a class="footer_link" href="#">Delivery</a><a class="footer_link" href="#">Service</a><a class="footer_link" href="#">Contacts</a></nav>
+            <ul class="footer_social-list">
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/fb.svg" alt="facebook" width="10.5" height="20"/></a></li>
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/instagram.svg" alt="instagram" width="20" height="20"/></a></li>
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/pinterest.svg" alt="pinterest" width="20" height="20"/></a></li>
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/twitter.svg" alt="twitter" width="20" height="20"/></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script src="js/main.min.js"></script>
+    </div>
+  </body>
+</html>

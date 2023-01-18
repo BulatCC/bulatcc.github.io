@@ -1,0 +1,245 @@
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Catalog</title>
+    <link rel="preload" href="fonts/Worksans.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="fonts/Worksansextrabold.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="fonts/Worksansbold.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="fonts/Worksansmedium.woff2" as="font" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.min.css"/>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header_container"><span class="header_title">Nîmes</span>
+                  <div class="user-block">
+                    <ul class="user-block_list">
+                      <li class="user-block_list-item">
+                        <div class="search-block">
+                          <input class="search-block_input" type="search"/>
+                          <button class="search-block_button" type="button"><img class="search-block_img" src="img/svg/search.svg" alt="поиск" width="24" height="24"/></button>
+                        </div>
+                      </li>
+                      <li class="user-block_list-item"><a class="user-block_item" href="#"><img class="user-block_img" src="img/svg/person.svg" alt="корзина" width="24" height="24"/></a></li>
+                      <li class="user-block_list-item"><a class="user-block_item" href="#"><span class="user-block_cart-count">0</span><img class="user-block_img" src="img/svg/cart.svg" alt="корзина" width="24" height="24"/></a></li>
+                    </ul>
+                  </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container mt-2-mobile mt-0-tablet">
+          <nav class="bread-crumbs mb-3 hidden-tablet"><a class="bread-crumbs_link" href="#">Woman</a><span class="bread-crumbs_link">Jackets</span></nav>
+        </div>
+        <div class="head-block hidden-mobile mb-3">
+          <div class="container head-block_container">
+            <div class="head-block_wrap">
+                      <nav class="bread-crumbs mb-3"><a class="bread-crumbs_link" href="#">Woman</a><span class="bread-crumbs_link">Jackets</span></nav>
+              <h2 class="head-block_title">Denim Collection <br/> Fall 2019</h2>
+            </div>
+            <div class="head-block_picture-wrap">
+                      <picture>
+                        <source type="image/webp" srcset="img/webp/head-block.webp, img/webp/head-block@2x.webp 2x"/><img class="head-block_img" src="img/head-block.jpg" srcset="img/head-block@2x.jpg 2x" alt="промо" width="294" height="260"/>
+                      </picture>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="filter-container mb-3">
+            <div class="filter">
+              <button class="filter_dropdown" type="button"><span class="filter_dropdown-title">Filter by</span><img class="filter_icon" src="img/svg/arrow-down-accordion.svg" width="16" height="8"/></button>
+              <div class="filter_content">
+                <div class="filter_header">
+                  <button class="filter_button" type="button">Clear all</button>
+                  <h3 class="filter_title">Filter</h3>
+                  <button class="filter_button js-filter-close" type="button">Close</button>
+                </div>
+                <ul class="accordion">
+                  <li class="accordion_item active">
+                    <div class="accordion_title-wrap"><span class="accordion_title">Color</span><img class="accordion_icon" src="img/svg/arrow-down-accordion.svg" width="16" height="8"/></div>
+                    <div class="accordion_wrapper">
+                      <div class="accordion_content">
+                                    <ul class="filter-radio">
+                                      <li class="filter-radio_item">
+                                        <input class="filter-radio_button" type="radio" name="color-button" id="#B0C3C7" value="#B0C3C7" checked="checked"/>
+                                        <label for="#B0C3C7" style="--radio-color: #B0C3C7"></label>
+                                      </li>
+                                      <li class="filter-radio_item">
+                                        <input class="filter-radio_button" type="radio" name="color-button" id="#3B6392" value="#3B6392"/>
+                                        <label for="#3B6392" style="--radio-color: #3B6392"></label>
+                                      </li>
+                                      <li class="filter-radio_item">
+                                        <input class="filter-radio_button" type="radio" name="color-button" id="#2D2E2E" value="#2D2E2E"/>
+                                        <label for="#2D2E2E" style="--radio-color: #2D2E2E"></label>
+                                      </li>
+                                      <li class="filter-radio_item">
+                                        <input class="filter-radio_button" type="radio" name="color-button" id="#ECECEC" value="#ECECEC"/>
+                                        <label for="#ECECEC" style="--radio-color: #ECECEC"></label>
+                                      </li>
+                                      <li class="filter-radio_item">
+                                        <input class="filter-radio_button" type="radio" name="color-button" id="#4193DA" value="#4193DA"/>
+                                        <label for="#4193DA" style="--radio-color: #4193DA"></label>
+                                      </li>
+                                    </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="accordion_item active">
+                    <div class="accordion_title-wrap"><span class="accordion_title">Collection</span><img class="accordion_icon" src="img/svg/arrow-down-accordion.svg" width="16" height="8"/></div>
+                    <div class="accordion_wrapper">
+                      <div class="accordion_content">
+                        <ul class="sort-buttons">
+                          <li class="sort-buttons_item">
+                            <button class="sort-buttons_button" type="button">Casual</button>
+                          </li>
+                          <li class="sort-buttons_item">
+                            <button class="sort-buttons_button active" type="button">Petite</button>
+                          </li>
+                          <li class="sort-buttons_item">
+                            <button class="sort-buttons_button" type="button">Classic</button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="filter_button-container">
+                  <button class="button" type="button">Apply (9 products)</button>
+                  <button class="button button--white hidden-mobile" type="button">Clear all</button>
+                </div>
+              </div>
+            </div>
+            <nav class="buttons-choose">
+              <ul class="buttons-choose_list scrollable">
+                <li class="buttons-choose_item"><a class="buttons-choose_link active" href="#">Woman</a></li>
+                <li class="buttons-choose_item"><a class="buttons-choose_link" href="#">Man</a></li>
+              </ul>
+            </nav>
+          </div>
+          <ul class="sort-buttons mb-3">
+            <li class="sort-buttons_item">
+              <button class="sort-buttons_button active" type="button">Popular</button>
+            </li>
+            <li class="sort-buttons_item">
+              <button class="sort-buttons_button" type="button">Low to high</button>
+            </li>
+            <li class="sort-buttons_item">
+              <button class="sort-buttons_button" type="button">High to low</button>
+            </li>
+          </ul>
+          <section class="content">
+            <ul class="product-list product-list--catalog">
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-1.webp, img/webp/woman-jacket-1@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-1.jpg" srcset="img/woman-jacket-1@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 20</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-2.webp, img/webp/woman-jacket-2@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-2.jpg" srcset="img/woman-jacket-2@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 40</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-3.webp, img/webp/woman-jacket-3@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-3.jpg" srcset="img/woman-jacket-3@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 60</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-4.webp, img/webp/woman-jacket-4@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-4.jpg" srcset="img/woman-jacket-4@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 80</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-5.webp, img/webp/woman-jacket-5@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-5.jpg" srcset="img/woman-jacket-5@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 100</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-6.webp, img/webp/woman-jacket-6@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-6.jpg" srcset="img/woman-jacket-6@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 120</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-7.webp, img/webp/woman-jacket-7@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-7.jpg" srcset="img/woman-jacket-7@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 140</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-8.webp, img/webp/woman-jacket-8@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-8.jpg" srcset="img/woman-jacket-8@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 160</span></a></article>
+              </li>
+              <li class="product-list_item">
+                <article class="product-card"><a href="">
+                    <div class="product-card_img-wrap">
+                              <picture>
+                                <source type="image/webp" srcset="img/webp/woman-jacket-9.webp, img/webp/woman-jacket-9@2x.webp 2x"/><img class="product-card_img" src="img/woman-jacket-9.jpg" srcset="img/woman-jacket-9@2x.jpg 2x" alt="Jacket"/>
+                              </picture>
+                    </div>
+                    <h3 class="product-card_title">Jacket</h3><br/><span class="product-card_price">$ 180</span></a></article>
+              </li>
+            </ul>
+          </section>
+          <section class="content pd-7-descktop">
+            <div class="pagination">
+              <p class="pagination_text" style="--pagination-width: 20%">Showing 9 of 45 items</p>
+              <button class="button pagination_button" type="button">Load more</button>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_container">
+            <h2 class="footer_title">Nîmes</h2>
+            <nav class="footer_links"><a class="footer_link" href="#">Shop</a><a class="footer_link" href="#">Delivery</a><a class="footer_link" href="#">Service</a><a class="footer_link" href="#">Contacts</a></nav>
+            <ul class="footer_social-list">
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/fb.svg" alt="facebook" width="10.5" height="20"/></a></li>
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/instagram.svg" alt="instagram" width="20" height="20"/></a></li>
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/pinterest.svg" alt="pinterest" width="20" height="20"/></a></li>
+              <li class="footer_social-item"><a class="footer_social-link" href="#"><img src="img/svg/twitter.svg" alt="twitter" width="20" height="20"/></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script src="js/main.min.js"></script>
+    </div>
+  </body>
+</html>
