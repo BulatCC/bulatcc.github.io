@@ -1294,11 +1294,11 @@ input[type="radio"].visually-hidden {
   color: var(--color-default-white);
 }
 
-.filter .button {
+.dropdown-menu .button {
   width: 100%;
 }
 
-.filter_dropdown {
+.dropdown-menu_dropdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1313,25 +1313,25 @@ input[type="radio"].visually-hidden {
   border: 0.2rem solid var(--color-default-black);
 }
 
-.filter_dropdown.active .filter_icon {
+.dropdown-menu_dropdown.active .dropdown-menu_icon {
   -webkit-transform: scaleY(-1);
   -ms-transform: scaleY(-1);
   transform: scaleY(-1);
 }
 
-.filter_icon {
+.dropdown-menu_icon {
   -webkit-transition: var(--default-transition);
   -o-transition: var(--default-transition);
   transition: var(--default-transition);
 }
 
-.filter_dropdown-title {
+.dropdown-menu_dropdown-title {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1;
 }
 
-.filter_content {
+.dropdown-menu_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1355,7 +1355,7 @@ input[type="radio"].visually-hidden {
   opacity: 0;
 }
 
-.filter_content.active {
+.dropdown-menu_content.active {
   visibility: visible;
   opacity: 1;
   -webkit-transition: opacity, var(--default-transition);
@@ -1363,13 +1363,13 @@ input[type="radio"].visually-hidden {
   transition: opacity, var(--default-transition);
 }
 
-.filter_header {
+.dropdown-menu_header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1377,11 +1377,11 @@ input[type="radio"].visually-hidden {
   padding: 2rem 1rem;
 }
 
-.filter_button {
+.dropdown-menu_button {
   padding: 0.5rem;
 }
 
-.filter_title {
+.dropdown-menu_title {
   position: absolute;
   right: 0;
   left: 0;
@@ -1392,7 +1392,7 @@ input[type="radio"].visually-hidden {
   font-size: 1.8rem;
 }
 
-.filter_button-container {
+.dropdown-menu_button-container {
   margin-top: auto;
   padding: 0 1.5rem;
 }
@@ -1489,7 +1489,7 @@ input[type="radio"].visually-hidden {
   max-width: unset;
 }
 
-.filter-container .filter {
+.filter-container .dropdown-menu {
   margin-bottom: 3rem;
 }
 
@@ -1777,6 +1777,10 @@ input[type="radio"].visually-hidden {
   color: var(--color-default-black);
 }
 
+.button--border-bottom {
+  border-bottom: 0.1rem solid var(--color-default-black);
+}
+
 .button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
@@ -1931,7 +1935,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   font-size: 1.8rem;
   line-height: 1;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .bread-crumbs_link:not(:first-child) {
@@ -1942,11 +1946,11 @@ input[type="radio"].visually-hidden {
   content: '/';
   position: absolute;
   left: -1.5rem;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .bread-crumbs_link:last-child {
-  opacity: 1;
+  opacity: 0.4;
 }
 
 .accordion_item {
@@ -2018,13 +2022,26 @@ input[type="radio"].visually-hidden {
 }
 
 .sort-buttons_button {
+  display: none;
+}
+
+.sort-buttons_button + label {
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: var(--default-transition);
+  -o-transition: var(--default-transition);
+  transition: var(--default-transition);
   padding: 0.5rem;
   font-size: 1.4rem;
   color: var(--color-grey);
   font-weight: 500;
 }
 
-.sort-buttons_button.active {
+.sort-buttons_button + label:hover {
+  opacity: 0.7;
+}
+
+.sort-buttons_button:checked + label {
   color: var(--color-default-black);
   font-weight: 700;
 }
@@ -2351,11 +2368,11 @@ input[type="radio"].visually-hidden {
     gap: 3rem;
   }
 
-  .filter {
+  .dropdown-menu {
     position: relative;
   }
 
-  .filter_content {
+  .dropdown-menu_content {
     position: absolute;
     padding-bottom: 0;
     top: 4.6rem;
@@ -2363,11 +2380,11 @@ input[type="radio"].visually-hidden {
     border: 0.2rem solid var(--color-default-black);
   }
 
-  .filter_header {
+  .dropdown-menu_header {
     display: none;
   }
 
-  .filter_button-container {
+  .dropdown-menu_button-container {
     padding: 0;
   }
 
@@ -2382,7 +2399,7 @@ input[type="radio"].visually-hidden {
     align-items: center;
   }
 
-  .filter-container .filter {
+  .filter-container .dropdown-menu {
     margin-bottom: 0;
   }
 
