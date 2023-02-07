@@ -2022,26 +2022,20 @@ input[type="radio"].visually-hidden {
 }
 
 .sort-buttons_button {
-  display: none;
-}
-
-.sort-buttons_button + label {
-  position: relative;
-  cursor: pointer;
-  -webkit-transition: var(--default-transition);
-  -o-transition: var(--default-transition);
-  transition: var(--default-transition);
   padding: 0.5rem;
   font-size: 1.4rem;
   color: var(--color-grey);
   font-weight: 500;
+  -webkit-transition: var(--default-transition);
+  -o-transition: var(--default-transition);
+  transition: var(--default-transition);
 }
 
-.sort-buttons_button + label:hover {
+.sort-buttons_button:hover {
   opacity: 0.7;
 }
 
-.sort-buttons_button:checked + label {
+.sort-buttons_button.active {
   color: var(--color-default-black);
   font-weight: 700;
 }
