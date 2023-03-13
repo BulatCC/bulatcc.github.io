@@ -651,42 +651,42 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
 
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/Lato-Black.woff2") format("woff2");
+  src: url("../fonts/Lato-Black.woff2") format("woff2");
   font-weight: 900;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/Lato-Bold.woff2") format("woff2");
+  src: url("../fonts/Lato-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/Lato-Regular.woff2") format("woff2");
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/Lato-Light.woff2") format("woff2");
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
   font-weight: 300;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Merriweather";
-  src: url("../../fonts/Merriweather-Black.woff2") format("woff2");
+  src: url("../fonts/Merriweather-Black.woff2") format("woff2");
   font-weight: 900;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Merriweather";
-  src: url("../../fonts/Merriweather-Bold.woff2") format("woff2");
+  src: url("../fonts/Merriweather-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
 }
