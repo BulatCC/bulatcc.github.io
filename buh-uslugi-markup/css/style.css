@@ -972,6 +972,11 @@ p {
   font-weight: 700;
 }
 
+.nav_link.active {
+  color: var(--color-blue);
+  font-weight: 900;
+}
+
 .burger {
   width: 2.4rem;
   height: 2.4rem;
