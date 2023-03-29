@@ -1463,6 +1463,7 @@ p {
   height: 100%;
   background-color: var(--color-light-green);
   transition: var(--default-transition);
+  overflow: hidden;
 }
 
 .side-menu_container,
@@ -1590,9 +1591,8 @@ p {
   text-transform: uppercase;
 }
 
-.main-slider .main-slider_title-bold-italic {
+.main-slider .main-slider_title-bold {
   font-weight: 600;
-  font-style: italic;
 }
 
 .main-slider .main-slider_button {
