@@ -13,6 +13,11 @@ export class htmlGenerator {
         this.toastContainer = document.querySelector('[data-toast-container]');
     }
 
+    init() {
+        this.renderElement();
+        this.logParams();
+    }
+
     getElement() {
         if (!this.element) {
             this.element = createElement(this.htmlTemplate(this.displayParams, this.positionParams, this.title));

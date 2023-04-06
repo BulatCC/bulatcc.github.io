@@ -16,6 +16,5 @@ form.addEventListener('submit', (evt) => {
     const buttonSettings = prepareFormData(formElements, initialButtonSettings);
     
     const button = new htmlGenerator(buttonTemplate, buttonSettings);
-    button.renderElement();
-    button.logParams();
+    button.init();
 });
