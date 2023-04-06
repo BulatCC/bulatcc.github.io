@@ -1,0 +1,157 @@
+:root {
+    --default-transition: 0.3s ease;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-violet: #6666CC;
+    --color-red: #E42626;
+    --color-green: #55C97B;
+    --color-yellow: #a6c240;
+    --toast: linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61)); 
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1480px;
+    position: relative;
+}
+
+.toast-container {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.toast {
+    padding: 15px 20px;
+    background: var(--toast);
+    color: var(--color-white);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.toast + .toast {
+    margin-top: 15px;
+}
+
+.render-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    background-color: #F68B1F;
+    color: #ffffff;
+    cursor: pointer;
+    transition: var(--default-transition);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    display: inline-flex;
+    gap: 10px;
+}
+
+select
+
+.btn + .btn {
+    margin-top: 10px;
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-violet {
+    color: var(--color-violet);
+}
+
+.color-red {
+    color: var(--color-red);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+.color-white {
+    color: var(--color-white);
+}
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
+
+.bg-violet {
+    background-color: var(--color-violet);
+}
+
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.bg-yellow {
+    background-color: var(--color-yellow);
+}
+
+.border-green {
+    border: 1px solid var(--color-green);
+}
+
+.border-black {
+    border: 1px solid var(--color-black);
+}
+
+.border-violet {
+    border: 1px solid var(--color-violet);
+}
+
+.border-red {
+    border: 1px solid var(--color-red);
+}
+
+.border-yellow {
+    border: 1px solid var(--color-yellow);
+}
+
+.position-left {
+    align-self: flex-start;
+}
+
+.position-center {
+    align-self: center;
+}
+
+.position-right {
+    align-self: flex-end;
+}
+
+.round-border {
+    border-radius: 5px;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

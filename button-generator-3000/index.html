@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Button generator 3000</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Button generator 3000</h2>
+    <form data-form>
+      <fieldset>
+        <legend>Выберите параметры кнопки</legend>
+        <label>
+          Название
+          <input type="text" name="title" value="Кнопа">
+        </label>
+        <label>
+          Цвет текста
+          <select name="displayParams">
+            <option value="color-white">Белый</option>
+            <option value="color-green">Зеленый</option>
+            <option value="color-black">Черный</option>
+            <option value="color-violet">Фиолетовый</option>
+            <option value="color-red">Красный</option>
+            <option value="color-yellow">Желтый</option>
+          </select>
+        </label>
+        <label>
+          Цвет фона
+          <select name="displayParams">
+            <option value="bg-green">Зеленый</option>
+            <option value="bg-black">Черный</option>
+            <option value="bg-violet">Фиолетовый</option>
+            <option value="bg-red">Красный</option>
+            <option value="bg-yellow">Желтый</option>
+          </select>
+        </label>
+        <label>
+          Цвет рамки
+          <select name="displayParams">
+            <option value="border-green">Зеленый</option>
+            <option value="border-black">Черный</option>
+            <option value="border-violet">Фиолетовый</option>
+            <option value="border-red">Красный</option>
+            <option value="border-yellow">Желтый</option>
+          </select>
+        </label>
+        <label>
+          Расположение
+          <select name="positionParams">
+            <option value="position-left">С лева</option>
+            <option value="position-right">С права</option>
+            <option value="position-center">По центру</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend>События</legend>
+          <label>
+            click
+            <input type="checkbox" name="events" value="click" checked>
+          </label>
+          <label>
+            mousedown
+            <input type="checkbox" name="events" value="mousedown">
+          </label>
+          <label>
+            mouseup
+            <input type="checkbox" name="events" value="mouseup">
+          </label>
+          <label>
+            mouseover
+            <input type="checkbox" name="events" value="mouseover" checked>
+          </label>
+          <label>
+            mouseout
+            <input type="checkbox" name="events" value="mouseout">
+          </label>
+        </fieldset>
+        <button class="btn">Создать кнопку</button>
+      </fieldset>
+    </form>
+    <div class="toast-container" data-toast-container></div>
+    <div class="render-container" data-render-container></div>
+  </div>
+</body>
+  <script type="module" src="/js/main.js"></script>
+</html>
