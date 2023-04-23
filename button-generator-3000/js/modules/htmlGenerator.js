@@ -1,7 +1,7 @@
 import { createElement } from "../utils.js";
 import { logTemplate, toastTempalte } from "./templates.js";
 
-export class htmlGenerator {
+export class HtmlGenerator {
     constructor(htmlTemplate, params) {
         this.htmlTemplate = htmlTemplate;
         this.displayParams = params.displayParams;

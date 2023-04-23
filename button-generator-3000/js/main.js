@@ -1,4 +1,4 @@
-import { htmlGenerator } from "./modules/htmlGenerator.js";
+import { HtmlGenerator } from "./modules/htmlGenerator.js";
 import { buttonTemplate } from "./modules/templates.js";
 import { prepareFormData } from "./utils.js";
 
@@ -15,6 +15,6 @@ form.addEventListener('submit', (evt) => {
 
     const buttonSettings = prepareFormData(formElements, initialButtonSettings);
     
-    const button = new htmlGenerator(buttonTemplate, buttonSettings);
+    const button = new HtmlGenerator(buttonTemplate, buttonSettings);
     button.init();
 });
